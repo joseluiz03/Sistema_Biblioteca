@@ -72,3 +72,8 @@ CREATE TABLE IF NOT EXISTS emprestimos(
   FOREIGN KEY (aluno_id) REFERENCES aluno(id),
   FOREIGN KEY (titulo_livro, numero_registro) REFERENCES livros(titulo_livro, numero_registro)
 );
+
+-- Diagrama do Banco de Dados
+<img src="C:\Users\aluno\Pictures\diagrama-biblioteca.png" alt="Descrição da imagem">
+
+
